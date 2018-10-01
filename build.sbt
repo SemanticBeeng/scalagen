@@ -14,7 +14,7 @@ lazy val sharedSettings: Def.SettingsDefinition = Def.settings(
   libraryDependencies ++=
     "ch.qos.logback" % "logback-classic" % "1.2.3" ::
       "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2" ::
-      "org.scalameta" %% "scalameta" % "2.1.3" ::
+      "org.scalameta" %% "scalameta" % "4.0.0" ::
       "org.scalameta" %% "contrib" % "2.1.3" ::
       "org.typelevel" %% "cats-core" % "1.0.1" ::
       "org.scalactic" %% "scalactic" % "3.0.4" ::
